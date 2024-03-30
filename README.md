@@ -3,6 +3,9 @@ Hi and Welcome to my Portfolio repository. Here you can see how I apply my skill
 - Feel free to take a look at any case studies which I performed using publicly available data using specific tools in ().
 
 [Case study 1: (Google Sheets/Excel)](Case%study%1/)
-Case study 2: (SQL,)
-Case study 3: (R)
-Case study 4: (Python)
+
+[Case study 2: (SQL,)](Case%Study%2/)
+
+[Case study 3: (R)](Case%Study%3/)
+
+[Case study 4: (Python)](Case%Study%4/)
