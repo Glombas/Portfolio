@@ -38,11 +38,11 @@ With that, I can answer my first question...
 
 ### 1. How many meals does each restaurant offer in total?
 
-1. McDonald's (329)
-2. KFC (213)
-3. Taco Bell (183)
-4. Burger King (183)
-5. Wendy's (154)
+1. McDonald's (314)
+2. KFC (184)
+3. Taco Bell (162)
+4. Burger King (159)
+5. Wendy's (145)
 6. Pizza Hut (74)
 
 
@@ -52,10 +52,19 @@ Setting **company** as rows and **calories** as values, I can answer the second 
 
 ### 2. What is the average amount of calories per meal in each restaurant and in all restaurants altogether?
 
-1. Burger King (365)
-2. Wendy's (323)
-3. Taco Bell (292)
-4. McDonald's (285)
-5. Pizza Hut (253)
-6. KFC (215)
+1. Burger King (396) +/- 265
+2. Wendy's (343) +/- 194
+3. Taco Bell (325) +/- 209
+4. McDonald's (297) +/- 215
+5. Pizza Hut (253) +/- 85
+6. KFC (248) +/- 201
+
+All restaurants average = **311**.
+
+If we look at the **standard deviation** we see very high values, that might be, because our data also contains stuff such as **sauces, drinks, etc.** which are not a real meal, but merely an addition to one.
+
+It would be wise to filter these out, however the range of calories in offered items is so high, that its better to keep them in as they do complete a final meal and it can spike up the amount of calories a person consumes during one sitting.
+
+**Coffee 10-300 cal**
+**Sauce 30-200 cal**
 
