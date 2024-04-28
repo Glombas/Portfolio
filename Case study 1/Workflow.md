@@ -15,10 +15,10 @@ Attributes include: Calories, Calories from Fat, Total Fat, Saturated Fat, Trans
 
 ## I decided to ask myself and answer the following questions:
 
-### 1. How many meals does each restaurant offer in total?
+### 1. How many options does each restaurant offer in total?
 ### 2. What is the average amount of calories per meal in each restaurant and in all restaurants altogether?
-### 3. Upon establishing the average calories, which restaurant contains the highest amount of meals with calories amount > average? 
-### 4. When selecting 5 top meals with the highest calories and the top 5 meals with the lowest calories, do the top 5 come from the same restaurant?
+### 3. Upon establishing the average calories, which restaurant contains the highest amount of meals with calories amount > average across restaurants? 
+### 4. When selecting 5 top meals with the highest calories, do the top 5 come from the same restaurant?
 ### 5. How much sodium to these meals contain? Do these top 5 meals contain higher amount of sodium than recommended daily dose? (2.3 g) How many meals in all restaurants exceed this amount 2x, 4x, 8x?
 
 These questions will all be answered using _Excel/Google Sheets_ and visualised in a _Tableau_ dashboard. [link](url)
@@ -36,7 +36,7 @@ I also removed anything with 0 or 'blank cell' calories as that would bias the s
 
 With that, I can answer my first question...
 
-### 1. How many meals does each restaurant offer in total?
+### 1. How many options does each restaurant offer in total?
 
 1. McDonald's (314)
 2. KFC (184)
@@ -68,3 +68,28 @@ It would be wise to filter these out, however the range of calories in offered i
 **Coffee 10-300 cal**
 **Sauce 30-200 cal**
 
+
+### 3. Upon establishing the average calories, which restaurant contains the highest amount of meals with calories amount > average across restaurants? 
+
+This can be achieved with a pivot table where we filter items by condition "calories > 311".
+
+The table then gives us the amount of options in each restaurant which has calories above average of all of them.
+
+1. McDonald's 111
+2. Burger King 86
+3. Taco Bell 77
+4. Wendy's 76
+5. KFC 47
+6. Pizza Hut 18
+
+### 4. When selecting 5 top meals with the highest calories, do the top 5 come from the same restaurant?
+
+This was kind of a blind check as there is no support for this hypothesis. I just wondered what the top 5 highest calorie meals/options are:
+
+| Company | Meal    | Calories    |
+| :---:   | :---: | :---: |
+| Burger King | Triple Whopper® Sandwich with Cheese   | 1220   |
+| KFC | Potato Salad (Family)   | 1200   |
+| Burger King | Cheddar Bacon King Sandwich   | 1190   |
+| McDonald’s | Chocolate Triple Thick® Shake (32 fl oz cup)   | 1160   |
+| McDonald’s | Big Breakfast with Hotcakes (Large Size Biscuit)   | 1150   |
