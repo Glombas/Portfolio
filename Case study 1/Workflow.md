@@ -19,7 +19,6 @@ Attributes include: Calories, Calories from Fat, Total Fat, Saturated Fat, Trans
 ### 2. What is the average amount of calories per meal in each restaurant and in all restaurants altogether?
 ### 3. Upon establishing the average calories, which restaurant contains the highest amount of meals with calories amount > average across restaurants? 
 ### 4. When selecting 5 top meals with the highest calories, do the top 5 come from the same restaurant?
-### 5. How much sodium to these meals contain? Do these top 5 meals contain higher amount of sodium than recommended daily dose? (2.3 g) How many meals in all restaurants exceed this amount 2x, 4x, 8x?
 
 These questions will all be answered using _Excel/Google Sheets_ and visualised in a _Tableau_ dashboard. [link](url)
 
@@ -72,6 +71,9 @@ It would be wise to filter these out, however the range of calories in offered i
 ### 3. Upon establishing the average calories, which restaurant contains the highest amount of meals with calories amount > average across restaurants? 
 
 This can be achieved with a pivot table where we filter items by condition "calories > 311".
+
+![image](https://github.com/Glombas/Portfolio/assets/42178209/3c1e0515-a133-4dd7-8c86-0f03d351cd28)
+
 
 The table then gives us the amount of options in each restaurant which has calories above average of all of them.
 
